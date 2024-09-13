@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "rand=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$rand/soul.py",
+    "postStartCommand": "rand=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$rand/m.py",
     "customizations": {
         "vscode": {
             "settings": {
